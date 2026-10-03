@@ -29,8 +29,8 @@ export default function Hero() {
           </a>
         </div>
         <div className="hero-note">
-          <span>01 — 03</span>
-          <span>Thoughtful engineering, from interface to infrastructure.</span>
+          {/* <span>01 — 03</span>
+          <span>Thoughtful engineering, from interface to infrastructure.</span> */}
         </div>
       </div>
       <div

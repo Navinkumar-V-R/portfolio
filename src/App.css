@@ -86,13 +86,13 @@ button {
 }
 
 .wordmark-name {
-    font-size: 11px;
+    font-size: 12px;
     font-weight: 700;
     letter-spacing: .09em
 }
 
 .wordmark-name small {
-    font-size: 10px;
+    font-size: 12px;
     color: var(--muted);
     font-weight: 500;
     margin-left: 3px
@@ -161,7 +161,7 @@ button {
 
 .eyebrow {
     font-family: var(--mono);
-    font-size: 9px;
+    font-size: 12px;
     letter-spacing: .12em;
     color: #59645d;
     display: flex;
@@ -263,7 +263,7 @@ button {
     position: absolute;
     top: 440px;
     left: 0;
-    font-size: 10px;
+    font-size: 12px;
     color: #768078
 }
 
@@ -277,7 +277,8 @@ button {
     position: relative;
     display: grid;
     place-items: center;
-    margin-left: 4px
+    margin-left: 4px;
+    margin-top: 10px
 }
 
 .visual-orbit {
@@ -344,7 +345,7 @@ button {
 }
 
 .visual-label {
-    font: 9px var(--mono);
+    font: 12px var(--mono);
     letter-spacing: .1em;
     display: flex;
     align-items: center;
@@ -360,7 +361,7 @@ button {
 }
 
 .label-top {
-    top: 53px
+    top: 3px
 }
 
 .float-card {
@@ -382,12 +383,12 @@ button {
 }
 
 .float-card b {
-    font-size: 10px;
+    font-size: 12px;
     font-weight: 650
 }
 
 .float-card small {
-    font-size: 9px;
+    font-size: 12px;
     color: #879189;
     margin-top: 3px
 }
@@ -456,8 +457,8 @@ button {
 
 .visual-caption {
     position: absolute;
-    bottom: 12px;
-    font: 8px var(--mono);
+    bottom: -10px;
+    font: 12px var(--mono);
     letter-spacing: .12em;
     color: #879188
 }
@@ -498,7 +499,7 @@ button {
     padding-top: 15px;
     display: flex;
     justify-content: space-between;
-    font: 8px var(--mono);
+    font: 12px var(--mono);
     letter-spacing: .1em;
     color: #7a847d
 }
@@ -525,7 +526,7 @@ button {
     width: max-content;
     min-width: 100%;
     animation: marquee 34s linear infinite;
-    font: 9px var(--mono);
+    font: 12px var(--mono);
     letter-spacing: .11em
 }
 
@@ -553,7 +554,7 @@ button {
 }
 
 .section-kicker {
-    font: 9px var(--mono);
+    font: 12px var(--mono);
     letter-spacing: .11em;
     color: #6b766e
 }
@@ -588,7 +589,7 @@ button {
     border: 1px solid #d8ddd6;
     background: transparent;
     color: #647067;
-    font-size: 10px;
+    font-size: 12px;
     padding: 9px 12px;
     cursor: pointer;
     border-radius: 2px;
@@ -596,7 +597,7 @@ button {
 }
 
 .filter-chip span {
-    font: 8px var(--mono);
+    font: 12px var(--mono);
     margin-left: 9px;
     color: #98a199
 }
@@ -689,7 +690,7 @@ button {
 }
 
 .window-bar>span {
-    font: 7px var(--mono);
+    font: 12px var(--mono);
     color: #a1aaa1;
     margin-left: 8px
 }
@@ -1001,7 +1002,7 @@ button {
     border: 1px solid #cdd7c9;
     display: grid;
     place-items: center;
-    font: 9px var(--mono);
+    font: 12px var(--mono);
     color: #66835c
 }
 
@@ -1026,7 +1027,7 @@ button {
     position: absolute;
     right: 12px;
     bottom: 10px;
-    font: 8px var(--mono);
+    font: 12px var(--mono);
     letter-spacing: .13em;
     color: #829083;
     text-transform: uppercase
@@ -1036,7 +1037,7 @@ button {
     display: flex;
     justify-content: space-between;
     padding: 17px 0 8px;
-    font: 8px var(--mono);
+    font: 12px var(--mono);
     letter-spacing: .12em;
     color: #8a948b
 }
@@ -1088,7 +1089,7 @@ button {
 }
 
 .stack-list span {
-    font: 8px var(--mono);
+    font: 12px var(--mono);
     padding: 6px 8px;
     border: 1px solid #dfe4dc;
     color: #657168
@@ -1136,7 +1137,7 @@ button {
 }
 
 .about-stamp small {
-    font: 8px/1.55 var(--mono);
+    font: 12px/1.55 var(--mono);
     letter-spacing: .1em;
     color: #73816f;
     position: absolute;
@@ -1182,17 +1183,17 @@ button {
 }
 
 .skill-number {
-    font: 8px var(--mono);
+    font: 12px var(--mono);
     color: #9aa49a
 }
 
 .skill-name {
-    font-size: 11px;
+    font-size: 12px;
     font-weight: 600
 }
 
 .skill-items {
-    font-size: 10px;
+    font-size: 12px;
     color: #758078
 }
 
@@ -1223,7 +1224,7 @@ button {
     display: flex;
     flex-direction: column;
     gap: 8px;
-    font: 8px var(--mono);
+    font: 12px var(--mono);
     letter-spacing: .1em;
     color: #66736a;
     padding-top: 5px
@@ -1235,7 +1236,7 @@ button {
 }
 
 .experience-type {
-    font: 8px var(--mono);
+    font: 12px var(--mono);
     letter-spacing: .1em;
     display: flex;
     align-items: center;
@@ -1263,7 +1264,7 @@ button {
 }
 
 .company-name {
-    font-size: 11px;
+    font-size: 12px;
     color: #4b5b4f
 }
 
@@ -1276,7 +1277,7 @@ button {
 }
 
 .experience-detail>p {
-    font-size: 11px;
+    font-size: 12px;
     line-height: 1.8;
     color: #748077;
     margin: 0 0 16px
@@ -1289,7 +1290,7 @@ button {
 }
 
 .experience-tags span {
-    font: 8px var(--mono);
+    font: 12px var(--mono);
     color: #657267;
     background: #e9ede6;
     padding: 6px 7px
@@ -1319,12 +1320,12 @@ button {
 }
 
 .automation-note b {
-    font-size: 11px;
+    font-size: 12px;
     font-weight: 600
 }
 
 .automation-note p {
-    font-size: 10px;
+    font-size: 12px;
     color: #7d877f;
     margin-top: 4px
 }
@@ -1424,12 +1425,12 @@ button {
 }
 
 .footer-mark .wordmark-name {
-    font-size: 9px
+    font-size: 12px
 }
 
 .footer-copy,
 .copyright {
-    font: 8px var(--mono);
+    font: 12px var(--mono);
     letter-spacing: .08em;
     color: #919b92
 }
@@ -1443,7 +1444,7 @@ button {
     display: flex;
     align-items: center;
     gap: 4px;
-    font: 8px var(--mono);
+    font: 12px var(--mono);
     letter-spacing: .08em;
     color: #637066
 }
@@ -1474,7 +1475,7 @@ button {
     justify-content: space-between;
     align-items: center;
     padding: 12px 0;
-    font-size: 10px;
+    font-size: 12px;
     font-weight: 600;
     color: #4e5c51
 }
@@ -1516,7 +1517,7 @@ details[open]>.project-details summary .disclosure-icon:after,
     padding: 0 0 2px 16px;
     margin: 0;
     color: #718076;
-    font-size: 11px;
+    font-size: 12px;
     line-height: 1.75
 }
 
@@ -1548,7 +1549,7 @@ details[open]>.project-details summary .disclosure-icon:after,
 }
 
 .expanded-label {
-    font: 8px var(--mono);
+    font: 12px var(--mono);
     letter-spacing: .12em;
     color: #56665a;
     margin: 2px 0 14px
@@ -1712,7 +1713,7 @@ details[open]>.project-details summary .disclosure-icon:after,
     }
 
     .eyebrow {
-        font-size: 8px;
+        font-size: 12px;
         gap: 7px
     }
 
@@ -1734,17 +1735,33 @@ details[open]>.project-details summary .disclosure-icon:after,
     .button {
         padding: 13px 14px;
         gap: 15px;
-        font-size: 11px
+        font-size: 12px
     }
 
     .text-link {
-        font-size: 11px
+        font-size: 12px
     }
 
     .hero-visual {
-        min-height: 310px;
-        transform: scale(.75);
-        margin: -7px -34px -15px
+        width: calc(100% + 40px);
+        min-height: clamp(300px, 72vw, 350px);
+        transform: scale(clamp(.78, calc(.62 + .058vw), .9));
+        margin: -7px -20px -15px
+    }
+
+    .float-api {
+        top: 100px;
+        right: 12px
+    }
+
+    .float-ui {
+        top: 228px;
+        left: 12px
+    }
+
+    .float-cloud {
+        right: 12px;
+        bottom: 53px
     }
 
     .visual-orbit {
@@ -1760,13 +1777,13 @@ details[open]>.project-details summary .disclosure-icon:after,
     .hero-note {
         position: static;
         margin-top: 2px;
-        font-size: 9px
+        font-size: 12px
     }
 
     .hero-bottom {
         bottom: 0;
         padding-top: 12px;
-        font-size: 7px
+        font-size: 12px
     }
 
     .hero-bottom span:nth-child(2) {
@@ -1778,7 +1795,7 @@ details[open]>.project-details summary .disclosure-icon:after,
     }
 
     .ticker-track {
-        font-size: 8px;
+        font-size: 12px;
         gap: 22px
     }
 
@@ -1801,7 +1818,7 @@ details[open]>.project-details summary .disclosure-icon:after,
     }
 
     .section-heading>p {
-        font-size: 11px
+        font-size: 12px
     }
 
     .project-filters {
@@ -1829,7 +1846,7 @@ details[open]>.project-details summary .disclosure-icon:after,
     }
 
     .project-description {
-        font-size: 11px
+        font-size: 12px
     }
 
     .about-section {
@@ -1859,7 +1876,7 @@ details[open]>.project-details summary .disclosure-icon:after,
     }
 
     .about-body {
-        font-size: 11px
+        font-size: 12px
     }
 
     .skills-list {
@@ -1873,11 +1890,11 @@ details[open]>.project-details summary .disclosure-icon:after,
     }
 
     .skill-name {
-        font-size: 10px
+        font-size: 12px
     }
 
     .skill-items {
-        font-size: 9px;
+        font-size: 12px;
         line-height: 1.5
     }
 
@@ -1912,7 +1929,7 @@ details[open]>.project-details summary .disclosure-icon:after,
     }
 
     .experience-detail>p {
-        font-size: 11px
+        font-size: 12px
     }
 
     .automation-note {
@@ -1946,7 +1963,7 @@ details[open]>.project-details summary .disclosure-icon:after,
     }
 
     .contact-bottom p {
-        font-size: 11px
+        font-size: 12px
     }
 
     .site-footer {
@@ -1964,7 +1981,7 @@ details[open]>.project-details summary .disclosure-icon:after,
     }
 
     .copyright {
-        font-size: 7px
+        font-size: 12px
     }
 }
 
@@ -2076,12 +2093,12 @@ details[open]>.project-details summary .disclosure-icon:after,
 }
 
 .certification-number {
-    font: 9px var(--mono);
+    font: 12px var(--mono);
     color: #9aa49a
 }
 
 .certification-issuer {
-    font: 8px var(--mono);
+    font: 12px var(--mono);
     letter-spacing: .11em;
     color: #7f8b80
 }
@@ -2151,3 +2168,4 @@ details[open]>.project-details summary .disclosure-icon:after,
         font-size: 14px
     }
 }
+
