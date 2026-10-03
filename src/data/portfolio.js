@@ -1,0 +1,105 @@
+export const projects = [
+  {
+    number: '01',
+    title: 'HRMS',
+    type: 'Full stack',
+    description: 'A human resource management system built around dependable workflows, clear interfaces, and connected services.',
+    stack: ['React', 'FastAPI', 'MySQL', 'Azure'],
+    art: 'hrms',
+    mark: 'people',
+    work: [
+      'Developed and maintained a full stack HRMS with React, FastAPI, MySQL, and Azure.',
+      'Built responsive, reusable UI components and integrated REST APIs for business workflows.',
+      'Implemented authentication, data validation, backend logic, and database integration.',
+      'Added automated email notifications triggered by business workflows.',
+      'Handled debugging, performance improvements, Azure deployment, production support, and ongoing enhancements.',
+    ],
+  },
+  {
+    number: '02',
+    title: 'Placement Portal',
+    type: 'Full stack',
+    description: 'A web portal for recruitment and student placement, with secure application flows and monitored assessments.',
+    stack: ['React', 'FastAPI', 'MySQL', 'Azure'],
+    art: 'placement',
+    mark: 'portal',
+    work: [
+      'Built a web portal for recruitment and student placement workflows.',
+      'Integrated REST APIs for secure data management, application processing, and backend communication.',
+      'Created responsive React components for navigation and user interactions.',
+      'Implemented assessment monitoring for tab switching, copy/paste actions, and screen visibility changes.',
+      'Supported Azure deployment, debugging, performance improvements, maintenance, and production support.',
+    ],
+  },
+  {
+    number: '03',
+    title: 'YourWellnessGateway',
+    type: 'Full stack',
+    description: 'A full stack wellness application with reusable React interfaces and Django REST API integration.',
+    stack: ['React', 'Django REST'],
+    art: 'wellness',
+    mark: 'wellness',
+    work: [
+      'Contributed to a full stack application using React and Django REST Framework.',
+      'Developed reusable React components and connected frontend features to backend REST APIs.',
+      'Implemented business logic and database interactions through Django.',
+      'Improved performance, resolved production issues, and collaborated with stakeholders on enhancements.',
+    ],
+  },
+  {
+    number: '04',
+    title: 'UVEDA',
+    type: 'Web',
+    description: 'A Next.js experience featuring an interactive Leaflet map and a conversational chatbot interface.',
+    stack: ['Next.js', 'Leaflet.js'],
+    art: 'uveda',
+    mark: 'map',
+    work: [
+      'Developed application features using Next.js.',
+      'Built a dynamic map interface with Leaflet.js.',
+      'Created a chatbot interface to improve user interaction.',
+    ],
+  },
+  {
+    number: '05',
+    title: 'Office Website',
+    type: 'Web',
+    description: 'A responsive, mobile-friendly company website built with reusable components and performance in mind.',
+    stack: ['Next.js', 'Tailwind CSS'],
+    art: 'office',
+    mark: 'web',
+    work: [
+      'Developed and maintained a responsive, mobile-friendly company website with Next.js and Tailwind CSS.',
+      'Built reusable UI components and applied performance-focused frontend practices.',
+    ],
+  },
+  {
+    number: '06',
+    title: 'Process Automations',
+    type: 'Automation',
+    description: 'Production-ready automations for receivables, reconciliation, and insurance verification.',
+    stack: ['UiPath', 'Python', 'Selenium'],
+    art: 'automation',
+    mark: 'automation',
+    work: [
+      'Accounts receivable: automated data extraction, email generation, status updates, error handling, and logging with UiPath.',
+      'Reconciliation: built a UiPath REFramework workflow for website login, report downloads, SharePoint retrieval, record updates, validation, and reporting.',
+      'Insurance verification: created Python/Selenium scripts for web data extraction, insurance validation, browser actions, and result logging.',
+      'Added error handling, logging, scheduling, and monitoring to support reliable production workflows.',
+    ],
+  },
+]
+
+export const skills = [
+  ['Frontend', 'React · Next.js · JavaScript · HTML · CSS · Tailwind'],
+  ['Backend', 'Python · FastAPI · Node.js · Django REST'],
+  ['Data', 'MySQL · MongoDB · CRUD · Data modeling'],
+  ['Cloud & tools', 'Microsoft Azure · Git · GitHub · Selenium · UiPath'],
+]
+
+export const certifications = [
+  ['MICROSOFT', 'Azure AI Cloud Developer Associate'],
+  ['UDEMY', 'Python & Django Full Stack Certification'],
+  ['UIPATH ACADEMY', 'RPA Developer Foundation'],
+  ['TRAINING', 'HIPAA Training Certification'],
+]
