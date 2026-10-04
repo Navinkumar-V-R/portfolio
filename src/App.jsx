@@ -7,6 +7,7 @@ import FocusTicker from './components/FocusTicker'
 import Footer from './components/Footer'
 import Header from './components/Header'
 import Hero from './components/Hero'
+import PortfolioChat from './components/PortfolioChat'
 import WorkSection from './components/WorkSection'
 
 function App() {
@@ -119,6 +120,7 @@ function App() {
         <ContactSection />
       </main>
       <Footer />
+      <PortfolioChat />
     </>
   )
 }

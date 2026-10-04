@@ -25,7 +25,7 @@ export default function Hero() {
           <a className="button button-dark" href="#work">
             Explore my work <Arrow />
           </a>
-          <a className="text-link" href="/Navinkumar_Resume.pdf" target="_blank" rel="noreferrer">
+          <a className="resume-link" href="/Navinkumar_Resume.pdf" target="_blank" rel="noreferrer">
             View resume <Arrow diagonal />
           </a>
         </div>

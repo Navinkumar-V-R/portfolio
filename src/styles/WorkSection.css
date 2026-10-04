@@ -16,7 +16,7 @@
     color: #647067;
     font-size: 12px;
     padding: 9px 12px;
-    cursor: var(--portfolio-cursor), pointer;
+    cursor: var(--portfolio-pointer), pointer;
     border-radius: 2px;
     transition: all .18s
 }
@@ -527,7 +527,7 @@
 
 .project-details summary {
     list-style: none;
-    cursor: var(--portfolio-cursor), pointer
+    cursor: var(--portfolio-pointer), pointer
 }
 
 .project-details summary::-webkit-details-marker {
@@ -624,7 +624,7 @@
     background: transparent;
     padding: 0;
     color: var(--ink);
-    cursor: var(--portfolio-cursor), pointer
+    cursor: var(--portfolio-pointer), pointer
 }
 
 .project-link:hover {

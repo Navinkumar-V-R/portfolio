@@ -133,7 +133,7 @@
 
 .experience-card {
     list-style: none;
-    cursor: var(--portfolio-cursor), pointer
+    cursor: var(--portfolio-pointer), pointer
 }
 
 .experience-card::-webkit-details-marker {

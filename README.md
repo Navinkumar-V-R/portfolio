@@ -19,4 +19,4 @@ npm run build
 
 - `src/components/` contains the page sections and reusable UI components.
 - `src/data/portfolio.js` contains project, skill, and certification content.
-- `public/Navinkumar_Resume.pdf` is the downloadable résumé.
+- `public/Navinkumar_Resume.pdf` is the downloadable resume.

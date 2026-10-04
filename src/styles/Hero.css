@@ -37,6 +37,23 @@
     margin-top: 32px
 }
 
+.resume-link {
+    display: flex;
+    align-items: center;
+    gap: 7px;
+    font-size: 12px;
+    color: #47534b
+}
+
+.resume-link .arrow {
+    width: 13px
+}
+
+.resume-link:hover {
+    color: #b6ed55;
+    transform: translateY(-2px);
+}
+
 .hero-note {
     display: flex;
     gap: 17px;

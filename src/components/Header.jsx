@@ -1,6 +1,7 @@
 import '../styles/Header.css'
 import { useState } from 'react'
 import Arrow from './Arrow'
+import { profile } from '../data/portfolio'
 
 export default function Header() {
   const [menuOpen, setMenuOpen] = useState(false)
@@ -27,6 +28,9 @@ export default function Header() {
         <a href="#about">About</a>
         <a href="#experience">Experience</a>
         <a href="#certifications">Certifications</a>
+        <a className="nav-linkedin" href={profile.linkedin} target="_blank" rel="noreferrer">
+          LinkedIn <Arrow diagonal />
+        </a>
         <a href="#contact" className="nav-contact">Let’s talk <Arrow diagonal /></a>
       </nav>
     </header>

@@ -1,3 +1,22 @@
+export const profile = {
+  name: 'Navinkumar V R',
+  shortName: 'Navinkumar',
+  role: 'Software Engineer / Full Stack Developer',
+  location: 'Coimbatore, India',
+  overallExperience: '4+ years',
+  summary: 'A software engineer who turns complex workflows into clear, dependable digital products. Works across responsive frontend development, reliable APIs, data handling, cloud deployment, and production support.',
+  employer: 'Emergere Computing Solutions Pvt Ltd',
+  experience: 'December 2021 – present',
+  education: 'Bachelor of Science in Computer Science',
+  university: 'Bharathiyar University, Coimbatore',
+  college: 'Sri Krishna College of Arts and Science, Coimbatore',
+  graduation: '2018–2021',
+  email: 'navinkumar.vr.29102000@gmail.com',
+  mobile: '+91 93600 17507',
+  resume: '/Navinkumar_Resume.pdf',
+  linkedin: 'https://www.linkedin.com/in/navinkumar-v-r-044a4323b/',
+}
+
 export const projects = [
   {
     number: '01',
