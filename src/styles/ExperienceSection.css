@@ -1,0 +1,260 @@
+
+
+.experience-section {
+    padding: 50px 0;
+}
+
+.experience-section .section-heading {
+    margin-bottom: 46px
+}
+
+.experience-card {
+    display: grid;
+    grid-template-columns: 155px 1fr 300px;
+    gap: 27px;
+    padding: 34px 0;
+    border-top: 1px solid #d5dbd3;
+    border-bottom: 1px solid #d5dbd3
+}
+
+.experience-date {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    font: 12px var(--mono);
+    letter-spacing: .1em;
+    color: #66736a;
+    padding-top: 5px
+}
+
+.experience-date i {
+    font-style: normal;
+    color: #a6afa5
+}
+
+.experience-type {
+    font: 12px var(--mono);
+    letter-spacing: .1em;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    color: #758178
+}
+
+.experience-type .status-dot {
+    width: 6px;
+    height: 6px
+}
+
+.experience-main h3 {
+    font-size: 27px;
+    line-height: 1.2;
+    letter-spacing: -.055em;
+    font-weight: 500;
+    margin: 18px 0 12px
+}
+
+.experience-main h3 span {
+    font-family: var(--serif);
+    font-style: italic;
+    color: #758875
+}
+
+.experience-detail {
+    align-self: end
+}
+
+.experience-detail>p {
+    font-size: 12px;
+    line-height: 1.8;
+    color: #748077;
+    margin: 0 0 16px
+}
+
+.experience-tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px
+}
+
+.experience-tags span {
+    font: 12px var(--mono);
+    color: #657267;
+    background: #e9ede6;
+    padding: 6px 7px
+}
+
+.automation-note {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    padding: 19px 0;
+    margin-top: 17px
+}
+
+.automation-icon {
+    width: 35px;
+    height: 35px;
+    border: 1px solid #d6dcd4;
+    border-radius: 50%;
+    display: grid;
+    place-items: center;
+    color: #61735d;
+    font-size: 17px
+}
+
+.automation-note>div {
+    flex: 1
+}
+
+.automation-note b {
+    font-size: 12px;
+    font-weight: 600
+}
+
+.automation-note p {
+    font-size: 12px;
+    color: #7d877f;
+    margin-top: 4px
+}
+
+.automation-note>a {
+    width: 28px;
+    height: 28px;
+    border: 1px solid #d6dcd4;
+    border-radius: 50%;
+    display: grid;
+    place-items: center
+}
+
+.automation-note>a .arrow {
+    width: 13px
+}
+
+.experience-card {
+    list-style: none;
+    cursor: var(--portfolio-cursor), pointer
+}
+
+.experience-card::-webkit-details-marker {
+    display: none
+}
+
+.experience-accordion[open] .disclosure-icon:after {
+    transform: rotate(0)
+}
+
+.experience-expanded ul {
+    padding: 0 0 2px 16px;
+    margin: 0;
+    color: #718076;
+    font-size: 12px;
+    line-height: 1.75
+}
+
+.experience-expanded li {
+    padding: 0 0 8px 3px
+}
+
+.experience-expanded li::marker {
+    color: #93b66c
+}
+
+.experience-card {
+    position: relative;
+    padding-right: 39px
+}
+
+.experience-disclosure {
+    position: absolute;
+    right: 0;
+    top: 0
+}
+
+.experience-expanded {
+    margin-left: 182px;
+    padding: 0 0 27px;
+    border-bottom: 1px solid #d5dbd3
+}
+
+@media(max-width:900px) {
+
+    .experience-card {
+        grid-template-columns: 100px 1fr 240px;
+        gap: 18px
+    }
+}
+
+@media(max-width:900px) {
+    .experience-expanded {
+        margin-left: 118px
+    }
+}
+
+@media(max-width:640px) {
+
+    .experience-section {
+        padding-top: 76px;
+        padding-bottom: 76px
+    }
+
+    .experience-section .section-heading {
+        margin-bottom: 30px
+    }
+
+    .experience-card {
+        grid-template-columns: 1fr;
+        gap: 18px;
+        padding: 25px 0
+    }
+
+    .experience-date {
+        flex-direction: row;
+        align-items: center;
+        gap: 9px
+    }
+
+    .experience-main h3 {
+        font-size: 25px;
+        margin-top: 13px
+    }
+
+    .experience-detail {
+        align-self: auto
+    }
+
+    .experience-detail>p {
+        font-size: 12px
+    }
+
+    .automation-note {
+        align-items: flex-start;
+        gap: 10px
+    }
+
+    .automation-note p {
+        line-height: 1.6
+    }
+}
+
+@media(max-width:640px) {
+    .experience-expanded {
+        margin-left: 0
+    }
+
+    .experience-disclosure {
+        top: 24px
+    }
+
+    .experience-card {
+        padding-right: 35px
+    }
+}
+
+.automation-note {
+    transition: transform .25s ease, border-color .25s ease, box-shadow .25s ease
+}
+
+.automation-note:hover {
+    transform: translateY(-2px)
+}

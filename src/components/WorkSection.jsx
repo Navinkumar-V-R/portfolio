@@ -1,3 +1,4 @@
+import '../styles/WorkSection.css'
 import { useState } from 'react'
 import { projects } from '../data/portfolio'
 import ProjectArt from './ProjectArt'

@@ -1,3 +1,4 @@
+import '../styles/FocusTicker.css'
 const topics = ['FULL STACK DEVELOPMENT', 'RESPONSIVE INTERFACES', 'API INTEGRATION', 'PROCESS AUTOMATION']
 
 export default function FocusTicker() {

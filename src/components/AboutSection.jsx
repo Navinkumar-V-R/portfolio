@@ -1,3 +1,4 @@
+import '../styles/AboutSection.css'
 import { skills } from '../data/portfolio'
 
 export default function AboutSection() {

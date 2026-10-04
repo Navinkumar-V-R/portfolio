@@ -1,3 +1,4 @@
+import '../styles/Footer.css'
 import Arrow from './Arrow'
 
 export default function Footer() {
@@ -21,7 +22,7 @@ export default function Footer() {
         <a href="/Navinkumar_Resume.pdf"
           target="_blank"
           rel="noreferrer"
-        >RÉSUMÉ <Arrow diagonal />
+        >RESUME <Arrow diagonal />
         </a>
       </div>
       <span className="copyright">

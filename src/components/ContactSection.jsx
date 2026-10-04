@@ -1,3 +1,4 @@
+import '../styles/ContactSection.css'
 import Arrow from './Arrow'
 
 export default function ContactSection() {

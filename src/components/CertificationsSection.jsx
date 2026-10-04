@@ -1,3 +1,4 @@
+import '../styles/CertificationsSection.css'
 import { certifications } from '../data/portfolio'
 
 export default function CertificationsSection() {

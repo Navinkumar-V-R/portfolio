@@ -1,0 +1,146 @@
+
+
+.site-header {
+    height: 78px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: min(1280px, calc(100% - 96px));
+    margin: auto;
+    border-bottom: 1px solid var(--line);
+    position: relative;
+    z-index: 5
+}
+
+.wordmark {
+    display: inline-flex;
+    align-items: center;
+    gap: 10px
+}
+
+.wordmark-icon {
+    width: 34px;
+    height: 34px;
+    border-radius: 50%;
+    display: grid;
+    place-content: center;
+    background: var(--ink);
+    color: white;
+    font-size: 15px;
+    font-weight: 650;
+    letter-spacing: -1px
+}
+
+.wordmark-icon span {
+    color: var(--green)
+}
+
+.wordmark-name {
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: .09em
+}
+
+.wordmark-name small {
+    font-size: 12px;
+    color: var(--muted);
+    font-weight: 500;
+    margin-left: 3px
+}
+
+.nav-links {
+    display: flex;
+    align-items: center;
+    gap: 36px;
+    font-size: 12px;
+    color: #535e57
+}
+
+.nav-links>a:not(.nav-contact) {
+    transition: color .2s
+}
+
+.nav-links>a:hover {
+    color: var(--ink)
+}
+
+.nav-contact {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    padding: 12px 15px 12px 19px;
+    border: 1px solid #cfd5cd;
+    border-radius: 99px;
+    color: var(--ink);
+    font-weight: 600
+}
+
+.nav-contact .arrow {
+    width: 14px
+}
+
+.menu-toggle {
+    display: none
+}
+
+@media(max-width:900px) {
+
+    .site-header {
+        width: calc(100% - 56px)
+    }
+}
+
+@media(max-width:640px) {
+
+    .site-header {
+        height: 66px;
+        width: calc(100% - 40px)
+    }
+
+    .menu-toggle {
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+        border: 0;
+        background: transparent;
+        padding: 10px;
+        cursor: var(--portfolio-cursor), pointer
+    }
+
+    .menu-toggle span {
+        width: 18px;
+        height: 1px;
+        background: var(--ink)
+    }
+
+    .nav-links {
+        display: none;
+        position: absolute;
+        top: 65px;
+        left: -20px;
+        right: -20px;
+        padding: 18px 20px 22px;
+        background: var(--paper);
+        border-bottom: 1px solid var(--line);
+        align-items: stretch;
+        gap: 17px
+    }
+
+    .nav-links.nav-open {
+        display: flex;
+        flex-direction: column
+    }
+
+    .nav-contact {
+        justify-content: space-between;
+        max-width: 180px
+    }
+}
+
+.nav-contact {
+    transition: transform .25s ease, border-color .25s ease, box-shadow .25s ease
+}
+
+.nav-contact:hover {
+    transform: translateY(-2px)
+}

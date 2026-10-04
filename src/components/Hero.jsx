@@ -1,3 +1,4 @@
+import '../styles/Hero.css'
 import Arrow from './Arrow'
 
 export default function Hero() {
@@ -25,7 +26,7 @@ export default function Hero() {
             Explore my work <Arrow />
           </a>
           <a className="text-link" href="/Navinkumar_Resume.pdf" target="_blank" rel="noreferrer">
-            View résumé <Arrow diagonal />
+            View resume <Arrow diagonal />
           </a>
         </div>
         <div className="hero-note">

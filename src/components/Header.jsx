@@ -1,3 +1,4 @@
+import '../styles/Header.css'
 import { useState } from 'react'
 import Arrow from './Arrow'
 

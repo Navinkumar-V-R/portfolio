@@ -1,3 +1,4 @@
+import '../styles/ExperienceSection.css'
 export default function ExperienceSection() {
   return (
     <section className="experience-section" id="experience">

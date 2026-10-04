@@ -1,0 +1,96 @@
+
+
+.contact-section {
+    background: var(--dark);
+    color: #f4f6ef;
+    position: relative;
+    overflow: hidden
+}
+
+.contact-wrap {
+    position: relative;
+    padding-top: 78px;
+    padding-bottom: 78px
+}
+
+.contact-section .eyebrow {
+    color: #bdc7bc
+}
+
+.contact-section .status-dot {
+    box-shadow: 0 0 0 3px #e8ffd6
+}
+
+.contact-section h2 {
+    font-size: 76px;
+    line-height: .98;
+    letter-spacing: -.07em;
+    font-weight: 500;
+    margin: 29px 0 27px;
+    position: relative;
+    z-index: 1
+}
+
+.contact-section .serif-word {
+    color: var(--green)
+}
+
+.contact-bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    max-width: 650px
+}
+
+.contact-bottom p {
+    font-size: 12px;
+    line-height: 1.8;
+    color: #bdc6bd
+}
+
+.button-light {
+    background: var(--green);
+    color: #20301f
+}
+
+.button-light:hover {
+    background: #caf28a
+}
+
+.contact-deco {
+    position: absolute;
+    right: 11%;
+    top: 33px;
+    font-size: 245px;
+    color: #b9de930b;
+    line-height: 1;
+    transform: rotate(-16deg)
+}
+
+@media(max-width:640px) {
+
+    .contact-wrap {
+        padding-top: 62px;
+        padding-bottom: 62px
+    }
+
+    .contact-section h2 {
+        font-size: 63px
+    }
+
+    .contact-deco {
+        right: -15%;
+        top: 10px;
+        font-size: 205px
+    }
+
+    .contact-bottom {
+        align-items: flex-start;
+        gap: 20px;
+        flex-direction: column
+    }
+
+    .contact-bottom p {
+        font-size: 12px
+    }
+}

@@ -1,0 +1,85 @@
+
+
+.site-footer {
+    min-height: 91px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 15px
+}
+
+.footer-mark .wordmark-icon {
+    width: 29px;
+    height: 29px;
+    font-size: 13px
+}
+
+.footer-mark .wordmark-name {
+    font-size: 12px
+}
+
+.footer-copy, .copyright {
+    font: 12px var(--mono);
+    letter-spacing: .08em;
+    color: #919b92
+}
+
+.footer-links {
+    display: flex;
+    gap: 19px
+}
+
+.footer-links a {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    font: 12px var(--mono);
+    letter-spacing: .08em;
+    color: #637066
+}
+
+.footer-links .arrow {
+    width: 10px;
+    height: 10px
+}
+
+@media(max-width:900px) {
+
+    .site-footer {
+        flex-wrap: wrap;
+        padding-block: 20px
+    }
+
+    .footer-copy {
+        display: none
+    }
+}
+
+@media(max-width:640px) {
+
+    .site-footer {
+        width: calc(100% - 40px);
+        padding: 20px 0;
+        display: grid;
+        grid-template-columns: 1fr auto;
+        gap: 15px
+    }
+
+    .footer-links {
+        grid-column: 1/-1;
+        grid-row: 2;
+        gap: 17px
+    }
+
+    .copyright {
+        font-size: 12px
+    }
+}
+
+.footer-links a {
+    transition: transform .25s ease, border-color .25s ease, box-shadow .25s ease
+}
+
+.footer-links a:hover {
+    transform: translateY(-2px)
+}
